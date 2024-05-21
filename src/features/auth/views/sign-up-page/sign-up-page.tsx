@@ -13,7 +13,7 @@ export default function SignUpPage() {
               <h2 className='mt-6 text-3xl font-extrabold text-gray-900'>Sign up for your account</h2>
               <p className='mt-2 text-center text-sm text-gray-600'>
                 <span>Already have an account? </span>
-                <Link to='/sign-in' className='font-medium text-indigo-600 hover:text-indigo-500'>
+                <Link to='/sign-in' className='font-medium text-indigo-600 hover:text-indigo-200'>
                   Sign in
                 </Link>
               </p>
@@ -47,7 +47,7 @@ export default function SignUpPage() {
                       name='email'
                       type='email'
                       autoComplete='email'
-                      className='appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
+                      className='appearance-none block w-[80%] px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
                     />
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function SignUpPage() {
                       name='password'
                       type='password'
                       autoComplete='current-password'
-                      className='appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
+                      className='appearance-none block w-full px-2 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm'
                     />
                   </div>
                 </div>
